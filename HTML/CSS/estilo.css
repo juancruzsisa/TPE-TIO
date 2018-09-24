@@ -1,0 +1,67 @@
+.navbar{
+  background-color: #4B0082;
+}
+.encabezado{
+padding: 30px;
+background-color: white;
+text-align: center;
+}
+
+
+.articulos{
+  background-color: lightgrey;
+}
+
+.centrado{
+  text-align: center;
+}
+
+
+.bordevioleta{
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius: 1px;
+  border: 3px solid #4B0082;
+}
+
+thead{
+  font-weight: bold;
+}
+table,th,td{
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  }
+
+.descripcion{
+ font-size: 140%;
+  }
+
+  .imagenesizquierda{
+    height: auto;
+    width: auto;
+  }
+
+  .imagen{
+    height: 10px;
+    width: 10%;
+  }
+  .hola{
+    float: right;
+  }
+
+.borderadio{
+  border-radius: 30px;
+}
+
+.mostrar{
+  display:block;
+}
+.ocultar{
+  display:none;
+}
+
+.filtrar{
+  text-align: center;
+}
