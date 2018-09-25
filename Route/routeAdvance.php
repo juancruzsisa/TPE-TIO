@@ -1,16 +1,15 @@
 <?php
 
-define('ACTION', 0);
-define('PARAMS', 1);
 
 require_once "config/ConfigApp.php";
 require_once "controller\TiendaController.php";
 
+
 function parseURL($url)
 {
   $urlExploded = explode('/', $url);
-  $arrayReturn[ConfigApp::$ACTION] = $urlExploded[ACTION];
-  $arrayReturn[ConfigApp::$PARAMS] = isset($urlExploded[PARAMS]) ? array_slice($urlExploded,1) : null;
+  $arrayReturn[ConfigApp::$ACTION] = $urlExploded[0];
+  $arrayReturn[ConfigApp::$PARAMS] = isset($urlExploded[1]) ? array_slice($urlExploded,1) : null;
   return $arrayReturn;
 }
 
